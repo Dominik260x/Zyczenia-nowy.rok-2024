@@ -26,7 +26,7 @@ function renderfire(fireworkContainer) {
 
     fireworkContainer.appendChild(fireContainer);
 
-    setTimeout(renderfire, 500, fireworkContainer)
+    setTimeout(renderfire, 1000, fireworkContainer)
 }
 
 const fireworkContainer = renderFireContainer();
